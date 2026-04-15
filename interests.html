@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/mystyles.css">
+    <link rel="stylesheet" href="css/mystylesscratch.css">
 </head>
-<body>
+<body style="background-color: antiquewhite;">
 <!--  Header -->
 <nav>
-    <div class="headerstyle">
+    <span class="headerblock" id="top">
         <a href="#">Scratch Page</a>
         <a href="index.html">Professional Site</a>
-        <a href="">AI-generated Site</a>
-    </div>
+        <a href="ai_app.html">AI-generated Site</a>
+    </span>
 </nav>
     <h1>Zachary Munson</h1>
-<div class="leftstyle">
-    <!-- Main content: centered -->
+<div class="leftblock">
+    <!-- Main content: on the left -->
     <h3>My Interests</h3>
     <!-- Ordered list -->
     <ul class="list">
@@ -41,11 +41,21 @@
             </ol>
         </li>
     </ul>
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0zzyShJZ9YQ?si=kTDd636GPWf5SoAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<p>I also love to learn about geography. Here's an example of data from Tableau.</p>
-<div class='tableauPlaceholder' id='viz1776120379446' style='position: relative'>
+
+<div class="rightblock">
+<img src="MeAtHouseofLord.jpeg" height="250px">
+<iframe width="400" height="250" src="https://www.youtube.com/embed/m4LnMlESzWA?si=FUBgu7TGF9chW3ML" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+
+<div class="map" style='position: absolute'>
+<p class="impact blue">I also love to learn about geography. Here's an example of data from Tableau.</p>
+<div class='tableauPlaceholder' id='viz1776120379446' style='position: relative'> 
+    <!-- style='position: relative' was inside the above class too-->
     <noscript>
         <a href='#'>
             <img alt='Yearly rainfall by state, inches, 1971-2000. ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ra&#47;Rainfallbystate&#47;Sheet1&#47;1_rss.png' style='border: none' />
@@ -65,7 +75,9 @@
         <param name='display_count' value='yes' />
         <param name='language' value='en-US' />
     </object>
-</div>                
+</div>        
+</div>
+
 <script type='text/javascript'>                    
     var divElement = document.getElementById('viz1776120379446');                    
     var vizElement = divElement.getElementsByTagName('object')[0];                    
@@ -76,5 +88,8 @@
 </script>
 
  <!-- Footer -->
+<span class="footerblock">
+    <a href="#top">Return to top</a>
+</span>
 </body>
 </html>
